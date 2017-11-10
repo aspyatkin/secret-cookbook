@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    chef-api (0.7.1)
+      logify (~> 0.1)
+      mime-types
+    logify (0.2.0)
+    mime-types (3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2016.0521)
+    stove (5.2.0)
+      chef-api (~> 0.5)
+      logify (~> 0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  stove (~> 5.2.0)
+
+BUNDLED WITH
+   1.15.4
